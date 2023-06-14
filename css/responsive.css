@@ -1,0 +1,144 @@
+@media (max-width: 1140px) {
+  .theme-wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .form-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: calc(100% - 32px);
+    min-width: calc(100% - 32px);
+  }
+}
+
+@media (max-width: 960px) {
+  .content-wrapper__sidebar {
+    display: none;
+  }
+  
+  .content-wrapper__body {
+    margin: 0;
+    max-width: 100%;
+  }
+  
+  .form-content__image {
+    margin-right: -2px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-line {
+    display: none;
+  }
+  .header-left__burger {
+    display: block;
+  }
+  .header-wrapper__right {
+    display: flex;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 990;
+  }
+  main {
+    margin-top: 60px;
+  }
+  
+  .form-wrapper__content {
+    flex-direction: column;
+    margin: 32px auto 0 auto;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .form-wrapper__box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-box__submit,
+  .form-box__input {
+    max-width: 460px;
+  }
+  .form-submit__text {
+    font-size: 18px;
+  }
+  .form-content__image {
+    margin-right: 12px;
+  }
+  .form-wrapper__countdown {
+    margin-top: 24px;
+  }
+  .form-wrapper__price {
+    display: none;
+  }
+  .--form-price-mobile {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+  
+  .footer-wrapper {
+    display: none;
+  }
+  
+  
+  .popup,
+  .overlay,
+  .--popup-active .popup,
+  .--popup-active .overlay {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .form-content__image {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+  }
+  .countdown-item__value,
+  .form-headline__title {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .countdown-item__title {
+    font-size: 16px;
+  }
+  .form-features__item {
+    font-size: 21px;
+    padding-left: 36px;
+    line-height: 26px;
+  }
+  .form-features__item:before {
+    width: 28px;
+    height: 28px;
+  }
+  .footer-copyright__link {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .header-left__button {
+    display: none;
+  }
+  
+  .form-price__old,
+  .price-new__text,
+  .price-new__discount {
+    font-size: 42px;
+  }
+  .price-new__discount {
+    margin-top: -6px;
+  }
+}
+
+@media (max-width: 340px) {
+  .form-price__new {
+    margin-top: -40px;
+  }
+}
