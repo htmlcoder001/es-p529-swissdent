@@ -50,6 +50,10 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector('.overlay').addEventListener('click', () => {
       document.body.classList.remove('--popup-active');
     });
+
+    document.querySelector('.popup-close').addEventListener('click', () => {
+      document.body.classList.remove('--popup-active');
+    });
   })();
 
   /** Countdown **/
